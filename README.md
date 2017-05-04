@@ -4,8 +4,8 @@
 <body>
 <p id="demo"></p>
 <script> document.getElementById("demo").innerHTML = "Hello! Welcome to Sprint";</script>
-<button type="button">Ankit Mehta</button> 
-<button type="button">Aditya Banerjee</button> 
-<button type="button">Jason Jugar</button> 
+<div><button type="button">Ankit Mehta</button></div> 
+<div><button type="button">Aditya Banerjee</button></div>
+<div><button type="button">Jason Jugar</button></div>
 </body>
 </html>
