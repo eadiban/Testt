@@ -4,10 +4,35 @@
 <body>
 <p id="demo"></p>
 <script> document.getElementById("demo").innerHTML = "Hello! Welcome to Sprint";</script>
-<div><button type="button">Ankit Mehta</button></div> 
+<div><button onclick="myFunction1()">Ankit Mehta</button></div>
 <hr>
-<div><button type="button">Aditya Banerjee</button></div>
+<div><button onclick="myFunction2()">Aditya Banerjee</button></div>
 <hr>
-<div><button type="button">Jason Jugar</button></div>
+<div><button onclick="myFunction3()">Jason Jugar</button></div>
+
+<script>
+function myFunction1() {
+    var x = document.createElement("INPUT");
+    x.setAttribute("type", "password");
+    x.setAttribute("value", "pswtext");
+    document.body.appendChild(x);
+    }
+</script>
+<script>
+function myFunction2() {
+    var y = document.createElement("INPUT");
+    y.setAttribute("type", "password");
+    y.setAttribute("value", "pswtext");
+    document.body.appendChild(y);
+    }
+</script>
+<script>
+function myFunction3() {
+    var z = document.createElement("INPUT");
+    z.setAttribute("type", "password");
+    z.setAttribute("value", "pswtext");
+    document.body.appendChild(z);
+    }
+</script>
 </body>
 </html>
