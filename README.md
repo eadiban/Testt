@@ -5,11 +5,6 @@
 <p id="demo"></p>
 <script> document.getElementById("demo").innerHTML = "Hello! Welcome to Sprint";</script>
 <div><button onclick="myFunction1()">Ankit Mehta</button></div>
-<hr>
-<div><button onclick="myFunction2()">Aditya Banerjee</button></div>
-<hr>
-<div><button onclick="myFunction3()">Jason Jugar</button></div>
-
 <script>
 function myFunction1() {
     var x = document.createElement("INPUT");
@@ -18,6 +13,8 @@ function myFunction1() {
     document.body.appendChild(x);
     }
 </script>
+<hr>
+<div><button onclick="myFunction2()">Aditya Banerjee</button></div>
 <script>
 function myFunction2() {
     var y = document.createElement("INPUT");
@@ -26,6 +23,8 @@ function myFunction2() {
     document.body.appendChild(y);
     }
 </script>
+<hr>
+<div><button onclick="myFunction3()">Jason Jugar</button></div>
 <script>
 function myFunction3() {
     var z = document.createElement("INPUT");
